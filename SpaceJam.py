@@ -29,7 +29,7 @@ class MyApp(ShowBase):
             up_entry = DirectEntry(width=15, numLines = 1, scale = 0.05, relief = DGG.SUNKEN, cursorKeys = 1, frameSize = (0, 15, 0, 1), command =  handleCommand)
 
             up_text = TextNode('node name')
-            up_text.setText("Every day in every way I'm getting better and better.")
+            up_text.setText("FORWARD CONTROL")
             uptextNodePath = aspect2d.attachNewNode(up_text)
             uptextNodePath.setScale(0.05)
             
